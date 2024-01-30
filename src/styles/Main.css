@@ -1,0 +1,170 @@
+/* Default styles for larger screens */
+.imageContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  border-color: black;
+  align-items: center;
+  overflow: unset;
+  border: brown;
+}
+
+.imageContainer .column {
+  flex: 1;
+}
+
+.imageContainer img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.midMain{
+  margin-top: 30px;
+  color: white;
+  height: auto;
+  /* background-color: blueviolet; */
+  text-align: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.services{
+  display: block;
+}
+
+.serviceType{
+  display: block;
+  /* border: 2px solid red; */
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.serviceType li{
+  height: 350px;
+  width: 400px;
+  border-radius: 10px;
+  background-color: teal;
+  margin: 5px 5px 5px 5px;
+  display: inline-block;
+  /* cursor:; */
+}
+.servicesType li a{
+  height: 350px;
+  width: 400px;
+}
+.servicesType li a img{
+  height: 350px;
+  width: 400px;
+}
+/* 
+.whyUs {
+  background-color: rgb(47, 47, 241);
+  padding: 20px;
+  border-radius: 8px;
+  color: #fff;
+  margin: 20px;
+}
+
+.whyUs h2 {
+  text-align: center;
+}
+
+.whyUs ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.whyUs li {
+  margin-bottom: 20px;
+}
+
+.whyUs li h5 {
+  color: #ffd700; 
+  margin-bottom: 10px;
+  text-align: left;
+} */
+
+
+.upperMain {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.heroSection {
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.upperMain button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  font-size: 204px;
+  color: #333;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 30%;
+}
+
+.upperMain button:hover {
+  background-color: white;
+}
+
+.upperMain button:first-child {
+  left: 700px;
+  height: 300px;
+}
+
+.upperMain button:last-child {
+  right: 700px;
+  height: 300px;
+}
+
+.upperMain .lowerMain {
+  text-align: center;
+}
+
+.lowerMain {
+  margin-top: 20px;
+}
+
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.lightbox-image {
+  height: 980px;
+  width: 980px;
+  object-fit: contain;
+}
+

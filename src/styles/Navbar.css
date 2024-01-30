@@ -1,0 +1,47 @@
+nav {
+    /* background-color: rebeccapurple; */
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: unset;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: white;
+    /* color: black; */
+    font-size: 12px;
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    /* Add flex to the logo container */
+    align-items: center;
+    /* Center items vertically within the logo container */
+    border-radius: 10px;
+}
+
+.logo img {
+    width: 70px;
+    height: 50px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-left: 150px;
+}
+
+li {
+    margin: 0 10px;
+    padding-right: 15px;
+    cursor: pointer;
+    font-size: large;
+}
+li a{
+    /* text-decoration: none; */
+    color: white;
+}
