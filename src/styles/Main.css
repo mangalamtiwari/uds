@@ -21,7 +21,7 @@
   border-radius: 8px;
 }
 
-.midMain{
+.midMain {
   margin-top: 30px;
   color: white;
   height: auto;
@@ -32,11 +32,11 @@
   padding-bottom: 30px;
 }
 
-.services{
+.services {
   display: block;
 }
 
-.serviceType{
+.serviceType {
   display: block;
   /* border: 2px solid red; */
 }
@@ -49,7 +49,7 @@ ul {
   padding-right: 5px;
 }
 
-.serviceType li{
+.serviceType li {
   height: 350px;
   width: 400px;
   border-radius: 10px;
@@ -58,41 +58,16 @@ ul {
   display: inline-block;
   /* cursor:; */
 }
-.servicesType li a{
+
+.servicesType li a {
   height: 350px;
   width: 400px;
 }
-.servicesType li a img{
+
+.servicesType li a img {
   height: 350px;
   width: 400px;
 }
-/* 
-.whyUs {
-  background-color: rgb(47, 47, 241);
-  padding: 20px;
-  border-radius: 8px;
-  color: #fff;
-  margin: 20px;
-}
-
-.whyUs h2 {
-  text-align: center;
-}
-
-.whyUs ol {
-  list-style-type: none;
-  padding: 0;
-}
-
-.whyUs li {
-  margin-bottom: 20px;
-}
-
-.whyUs li h5 {
-  color: #ffd700; 
-  margin-bottom: 10px;
-  text-align: left;
-} */
 
 
 .upperMain {
@@ -105,13 +80,14 @@ ul {
 
 .heroSection {
   position: relative;
+  text-align: center;
 }
 
 .image {
-  width: 100%;
+  width: 90%;
   height: 100%;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 40%;
 }
 
 .upperMain button {
@@ -168,3 +144,55 @@ ul {
   object-fit: contain;
 }
 
+@media only screen and (max-width: 450px) {
+  .upperMain {
+    height: auto;
+    align-items: center;
+    text-align: center;
+    /* background-color: black; */
+    /* margin-left: 100px; */
+  }
+
+
+  .image {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 20%;
+  }
+
+  .upperMain button {
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    /* top: 50%; */
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    font-size: 100px;
+    color: #333;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: %;
+  }
+
+  .upperMain button:first-child {
+    left: 300px;
+    height: 300px;
+    border-radius: 50px;
+  }
+  
+  .upperMain button:last-child {
+    right: 300px;
+    height: 300px;
+    /* border-radius: 50%; */
+  }
+
+}
+
+/* Add more media queries as needed for different screen sizes 
+Iphone 14 promax=> 430px × 932px
+iphone 12 promax=> 390 * 844
+
+
+*/
